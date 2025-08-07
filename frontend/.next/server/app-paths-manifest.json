@@ -1,7 +1,0 @@
-{
-  "/doctors/page": "app/doctors/page.js",
-  "/auth/register/page": "app/auth/register/page.js",
-  "/auth/login/page": "app/auth/login/page.js",
-  "/doctor-profile/page": "app/doctor-profile/page.js",
-  "/admin/page": "app/admin/page.js"
-}
