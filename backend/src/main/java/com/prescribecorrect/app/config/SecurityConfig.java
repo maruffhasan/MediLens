@@ -70,9 +70,14 @@ public class SecurityConfig {
     public CorsConfigurationSource corsConfigurationSource() {
         CorsConfiguration config = new CorsConfiguration();
         config.setAllowedOrigins(List.of(
-            "http://localhost:3000", 
-            "https://prescribe-correct.vercel.app"
-        )); // frontend origins
+            "http://localhost:3000",
+            "https://PrescribeCorrect-frontend.onrender.com",
+            "https://medi-lens-amwt.vercel.app",
+            "https://PrescribeCorrect-x6zm.onrender.com",
+            "https://prescribe-correct.vercel.app",
+            "https://prescribecorrect.vercel.app",
+            "*"
+        )); // frontend origins - allowing all for debugging
         config.setAllowedMethods(List.of("GET", "POST", "PUT", "DELETE", "PATCH", "OPTIONS"));
         config.setAllowedHeaders(List.of("*"));
         config.setAllowCredentials(true);
